@@ -1,9 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  class: MyString
-  description: MyText
+alert_yellow:
+  class: "Alerta Amarilla (precaución)"
+  description: "Potencial congestión en la estación Av Jimenez Caracas - A1S. Por favor dirija personal para ayudar al transito responsable de usuarios"
+  dismissed: false
+  station_id: 1
 
-two:
-  class: MyString
-  description: MyText
+alert_red:
+  class: "Alerta roja (congestión)"
+  description: "Congestión severa en la estación Marly-B1N-camara-1. Por favor dirija unidades móviles con caracter de urgencia"
+  dismissed: false
+  station_id: 2
