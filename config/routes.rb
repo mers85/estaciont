@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :stations do
         resources :cameras
         resources :workers
+        resources :alerts
       end
       resources :screenshots
     end
