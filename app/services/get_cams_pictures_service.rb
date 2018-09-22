@@ -15,11 +15,11 @@ class GetCamsPicturesService
       @cam.save
       # end of api call
 
-      sh = Screenshot.new(camera_id: camera.id)
-      sh.status = [0, 1, 2].sample
-      sh.image.attach(io: File.open(Rails.root.join(img_path, img_filename)), filename: img_filename , content_type: "image/jpg")
-      sh.save
-      new_screenshots << sh
+      @sh = Screenshot.new(camera_id: camera.id)
+      @sh.image.attach(io: File.open(Rails.root.join(img_path, img_filename)), filename: img_filename , content_type: "image/jpg")
+      @sh.save
+      set_status_from_watson
+      new_screenshots << @sh
     end
     new_screenshots
   end
@@ -29,5 +29,15 @@ class GetCamsPicturesService
   def reinitialize_index
     @cam.last_shown = 0
     @cam.save
+  end
+
+  def set_status_from_watson
+    watson_service = Watson.new
+    result = watson_service.visual_recognition_image(@sh.image)
+    result = (eval result)
+    label = result[:images].first[:classifiers].first[:classes].max_by {|k, v| v }
+    @sh.status = label[:class].downcase
+    @sh.score = label[:score]
+    @sh.save
   end
 end

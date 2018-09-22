@@ -10,8 +10,4 @@ class Api::V1::ScreenshotsController < ApplicationController
     render :create
   end
 
-  def create
-    render json: "Hola"
-  end
-
 end
