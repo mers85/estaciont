@@ -7,24 +7,24 @@
 av-jimenez-caracas-a1s:
   id: 1
   name: "Av Jimenez Caracas - A1S"
-  image_url:
+  image_url: "https://screenshots-estaciont.nyc3.digitaloceanspaces.com/av-jimenez-caracas.jpg"
 
 marly-b1n:
   id: 2
   name: "marly-B1N-camara-1"
-  image_url:
+  image_url: "https://screenshots-estaciont.nyc3.digitaloceanspaces.com/marly.jpg"
 
 p_americas_t2:
   id: 3
   name: "p_americas_t2"
-  image_url:
+  image_url: "https://screenshots-estaciont.nyc3.digitaloceanspaces.com/p_americas_t2.jpg"
 
 p_americas_t6:
   id: 4
   name: "p_americas_t6"
-  image_url:
+  image_url: "https://screenshots-estaciont.nyc3.digitaloceanspaces.com/p_americas_t6.jpg"
 
 p_norte_t1:
   id: 5
   name: "P. NORTE - T1"
-  image_url:
+  image_url: "https://screenshots-estaciont.nyc3.digitaloceanspaces.com/P.%20NORTE%20-%20T1.jpg"
