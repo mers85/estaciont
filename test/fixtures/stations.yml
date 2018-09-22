@@ -4,8 +4,22 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+av-jimenez-caracas-a1s:
+  id: 1
+  name: "Av Jimenez Caracas - A1S"
+
+marly-b1n:
+  id: 2
+  name: "marly-B1N-camara-1"
+
+p_americas_t2:
+  id: 3
+  name: "p_americas_t2"
+
+p_americas_t6:
+  id: 4
+  name: "p_americas_t6"
+
+p_norte_t1:
+  id: 5
+  name: "P. NORTE - T1"
