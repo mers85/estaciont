@@ -4,8 +4,27 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+av-jimenez-caracas-a1s-cam1:
+  station_id: 1
+  name: "Av Jimenez Caracas - A1S"
+  streaming_url: "av-jimenez-caracas-a1s-camara1"
+
+marly-b1n-cam1:
+  station_id: 2
+  name: "CAM marly-B1N-camara-1"
+  streaming_url: "marly-B1N-camara-1"
+
+p_americas_t2-cam1:
+  station_id: 3
+  name: "CAM p_americas_t2"
+  streaming_url: "p_americas_t2"
+
+p_americas_t6-cam1:
+  station_id: 4
+  name: "CAM p_americas_t6"
+  streaming_url: "p_americas_t6"
+
+p_norte_t1-cam1:
+  station_id: 5
+  name: "CAM P. NORTE - T1"
+  streaming_url: "p_norte_t1_camara_1"
