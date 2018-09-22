@@ -5,4 +5,8 @@ class Api::V1::ScreenshotsController < ApplicationController
     render json: @screenshots
   end
 
+  def create
+    render json: "Hola"
+  end
+
 end

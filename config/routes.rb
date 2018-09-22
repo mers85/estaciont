@@ -5,7 +5,7 @@ Rails.application.routes.draw do
       namespace :v1 do
         resources :stations do
           resources :cameras do
-            resources :screenshots
+            resources :screenshots, :defaults => { :format => 'json' }
           end
           resources :workers
         end
