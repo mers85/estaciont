@@ -46,3 +46,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "dotenv-rails"
 gem 'httparty'
 gem 'aws-sdk-s3'
+gem 'jbuilder'

@@ -1,5 +1,6 @@
 class GetCamsPicturesService
   def perform
+    new_screenshots = []
     Camera.all.each do |camera|
 
       # all this should be an api call
@@ -18,7 +19,9 @@ class GetCamsPicturesService
       sh.status = [0, 1, 2].sample
       sh.image.attach(io: File.open(Rails.root.join(img_path, img_filename)), filename: img_filename , content_type: "image/jpg")
       sh.save
+      new_screenshots << sh
     end
+    new_screenshots
   end
 
   private
