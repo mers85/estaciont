@@ -1,19 +1,24 @@
 jesus_perez:
+  id: 1
   name: "Jesus Perez"
   station_id: 1
 
 juan_zapatero:
+  id: 2
   name: "Juan Zapatero"
   station_id: 2
 
 nicolle_jasbon:
+  id: 3
   name: "Nicolle Jasbon"
   station_id: 3
 
 granger_abuhoff:
+  id: 4
   name: "Granger Abuhoff"
   station_id: 4
 
 sally_singh:
+  id: 5
   name: "Sally Singh"
   station_id: 5

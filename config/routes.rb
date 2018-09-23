@@ -12,6 +12,7 @@ Rails.application.routes.draw do
       resources :users, module: "users" do
         resources :reports, only: [:index]
       end
+      resources :report_types
     end
   end
 end
