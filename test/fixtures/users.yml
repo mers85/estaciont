@@ -1,0 +1,23 @@
+diego_zuluaga:
+  name: "Diego Zuluaga"
+  balance: 30000
+
+ferney_medina:
+  name: "Ferney Medina"
+  balance: 2000
+
+mauricio_scioville:
+  name: "Mauricio Scioville"
+  balance: 23000
+
+mayra_rodriguez:
+  name: "Mayra Rodríguez"
+  balance: 50000
+
+leonel_oliveros:
+  name: "Leonel Oliveros"
+  balance: 1000
+
+carlos_valencia:
+  name: "Carlos Valencia"
+  balance: 5000

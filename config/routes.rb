@@ -7,6 +7,8 @@ Rails.application.routes.draw do
         resources :alerts
       end
       resources :screenshots
+
+      resources :users
     end
   end
 end

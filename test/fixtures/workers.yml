@@ -1,11 +1,19 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+jesus_perez:
+  name: "Jesus Perez"
+  station_id: 1
 
-# This model initially had no columns defined. If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-one: {}
-# column: value
-#
-two: {}
-# column: value
+juan_zapatero:
+  name: "Juan Zapatero"
+  station_id: 2
+
+nicolle_jasbon:
+  name: "Nicolle Jasbon"
+  station_id: 3
+
+granger_abuhoff:
+  name: "Granger Abuhoff"
+  station_id: 4
+
+sally_singh:
+  name: "Sally Singh"
+  station_id:
