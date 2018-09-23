@@ -1,4 +1,4 @@
-class Api::V1::WorkersController < ApplicationController
+class Api::V1::Stations::WorkersController < ApplicationController
   before_action :set_station
 
   def index

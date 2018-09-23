@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_23_122136) do
+ActiveRecord::Schema.define(version: 2018_09_23_143117) do
 
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
@@ -53,6 +53,22 @@ ActiveRecord::Schema.define(version: 2018_09_23_122136) do
   create_table "cams", force: :cascade do |t|
     t.string "name"
     t.integer "last_shown"
+  end
+
+  create_table "report_types", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "reports", force: :cascade do |t|
+    t.text "body"
+    t.integer "user_id"
+    t.boolean "validated", default: false
+    t.integer "report_type_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "station_id"
   end
 
   create_table "screenshots", force: :cascade do |t|
