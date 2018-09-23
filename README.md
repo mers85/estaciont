@@ -1,6 +1,6 @@
 # estaciónT
 
-- Aplicación inteligente de alertas para la reducción de estaciones congestionadas en el sistema de TransMilenio.
+- Aplicación inteligente de alertas para la reducción de las situaciones de congestión en el sistema de TransMilenio.
 - Herramienta de colaboración entre los usuarios de TransMilenio.
 
 ## API
