@@ -1,7 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
+seguridad:
+  id: 1
+  name: "Seguridad"
 
-two:
-  name: MyString
+limpieza:
+  id: 2
+  name: "limpieza"
+
+estado:
+  id: 3
+  name: "Estado del servicio"
+
+otros:
+  id: 4
+  name: "Otros"
