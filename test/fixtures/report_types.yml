@@ -1,15 +1,15 @@
-#seguridad:
-#  id: 1
-#  name: "Seguridad"
-#
-#limpieza:
-#  id: 2
-#  name: "limpieza"
-#
-#estado:
-#  id: 3
-#  name: "Estado del servicio"
-#
-#otros:
-#  id: 4
-#  name: "Otros"
+seguridad:
+  id: 1
+  name: "Seguridad"
+
+limpieza:
+  id: 2
+  name: "limpieza"
+
+estado:
+  id: 3
+  name: "Estado del servicio"
+
+otros:
+  id: 4
+  name: "Otros"

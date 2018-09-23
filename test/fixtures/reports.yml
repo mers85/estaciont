@@ -1,8 +1,8 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-#suciedad_extrema:
-#  body: "La estación Marly está muy sucia"
-#  user_id: 1
-#  validated: false
-#  report_type_id: 2
-#  station_id: 1
+suciedad_extrema:
+  body: "La estación Marly está muy sucia"
+  user_id: 1
+  validated: false
+  report_type_id: 2
+  station_id: 1
