@@ -1,23 +1,29 @@
 diego_zuluaga:
+  id: 1
   name: "Diego Zuluaga"
   balance: 30000
 
 ferney_medina:
+  id: 2
   name: "Ferney Medina"
   balance: 2000
 
 mauricio_scioville:
+  id: 3
   name: "Mauricio Scioville"
   balance: 23000
 
 mayra_rodriguez:
+  id: 4
   name: "Mayra Rodríguez"
   balance: 50000
 
 leonel_oliveros:
+  id: 5
   name: "Leonel Oliveros"
   balance: 1000
 
 carlos_valencia:
+  id: 6
   name: "Carlos Valencia"
   balance: 5000
