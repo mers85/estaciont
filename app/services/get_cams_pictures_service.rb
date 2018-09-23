@@ -19,6 +19,7 @@ class GetCamsPicturesService
       @sh.image.attach(io: File.open(Rails.root.join(img_path, img_filename)), filename: img_filename , content_type: "image/jpg")
       @sh.save
       set_status_from_watson
+      check_for_alerts
       new_screenshots << @sh
     end
     new_screenshots
@@ -39,5 +40,21 @@ class GetCamsPicturesService
     @sh.status = label[:class].downcase
     @sh.score = label[:score]
     @sh.save
+  end
+
+  def check_for_alerts
+    if @sh.red?
+      @sh.alerts.create(
+        category: "Alerta roja (congestión)",
+        description: "Congestión severa. Por favor dirija unidades móviles con caracter de urgencia",
+        dismissed: false
+      )
+    elsif @sh.yellow?
+      @sh.alerts.create(
+        category: "Alerta Amarilla (precaución)",
+        description: "Potencial congestión. Por favor dirija personal para ayudar al transito responsable de usuarios",
+        dismissed: false
+      )
+    end
   end
 end
