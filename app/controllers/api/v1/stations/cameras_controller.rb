@@ -1,4 +1,4 @@
-class Api::V1::CamerasController < ApplicationController
+class Api::V1::Stations::CamerasController < ApplicationController
 
   def index
     @cameras = Camera.all

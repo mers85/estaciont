@@ -1,4 +1,4 @@
-class Api::V1::AlertsController < ApplicationController
+class Api::V1::Stations::AlertsController < ApplicationController
 
   def index
     @station = Station.find(params[:station_id])
