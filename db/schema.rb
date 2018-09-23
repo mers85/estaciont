@@ -55,6 +55,12 @@ ActiveRecord::Schema.define(version: 2018_09_23_143117) do
     t.integer "last_shown"
   end
 
+  create_table "points", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "amount"
+    t.integer "report_id"
+  end
+
   create_table "report_types", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
